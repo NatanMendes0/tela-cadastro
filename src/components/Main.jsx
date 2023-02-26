@@ -31,6 +31,7 @@ function Main() {
                   name="user"
                   type="text"
                   autoComplete="user-name"
+                  placeholder="ex: João da Silva"
                   required
                   className="focus:outline-none focus:ring-0 block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm"
                 />
@@ -49,6 +50,7 @@ function Main() {
                   name="email"
                   type="email"
                   autoComplete="email"
+                  placeholder="ex: nome@dominio.com"                    
                   required
                   className="focus:outline-none focus:ring-0 block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm"
                 />
